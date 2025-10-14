@@ -9,8 +9,7 @@ MCP의 뜻을 풀어서 보면, Model ( AI-모델 에게 ) Context ( 사용자�
 특히 Context는, 프롬프트 엔지니어링에서 매우 중요한 요소입니다.  
 사용자가 모델에게 어떤 맥락 속에서 답변을 원하는지 명시하여, 더욱 정확한 정보를 사용자에게 제공할 수 있기 때문입니다.  
 
-따라서, MCP는 개발자가 데이터 소스 ( Server, Spreadsheet, File System ... ) 와 AI 도구 간 안전한 양방향 연결을 구축할 수 있도록 지원하는 개방형 표준이며,  
-이를 처음 세상에 공개한 것이 `Anthropic`입니다.
+따라서, MCP는 개발자가 데이터 소스 ( Server, Spreadsheet, File System ... ) 와 AI 도구 간 안전한 양방향 연결을 구축할 수 있도록 지원하는 개방형 표준이며, 이를 처음 세상에 공개한 것이 `Anthropic`입니다.
 
 ## Why MCP Required?
 
