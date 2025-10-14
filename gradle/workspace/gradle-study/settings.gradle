@@ -1,0 +1,3 @@
+rootProject.name = 'gradle-study'
+include 'api'
+include 'consumer'
