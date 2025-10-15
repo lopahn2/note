@@ -21,7 +21,7 @@ Function Calling은 OpenAISpec에 호출 가능한 함수의 사양을 정의해
 결국 사용자는 자연어로 서버의 특정 함수를 호출할 수 있게 되는 것입니다.  
 
 하지만 OpenAISpec에 정의된 함수의 스펙의 양이 무수히 많아지면, 함수 선별에 사용되는 토큰의 양이 기하급수적으로 늘어나 비용적으로 부담이 발생합니다.  
-또한 모델의 Context Window를 초과해 비용 문제가 아닌 성능 문제로도 이어질 가능성히 다분히 존재합니다.  
+또한 모델의 Context Window를 초과해 비용 문제가 아닌 성능 문제로도 이어질 가능성이 다분히 존재합니다.  
 
 > 현 모델 중, Llama 4 Scout의 Context Window 크기가 10,000,000 토큰으로 가장 많은 용량을 제공해줍니다.  
 > 그럼에도, 비즈니스에서 사용되는 함수 스펙을 정의할 때 낙관적으로 1200토큰이 사용된다고 할 때, 약 8천개의 API 스펙을 정의할 수 있습니다.  
@@ -54,14 +54,14 @@ Function Calling은 OpenAISpec에 호출 가능한 함수의 사양을 정의해
 
 ### Spec
 
-| 구분 | 기술 스택 / 버전 |
-|------|----------------|
-| 운영 환경 | Kubernetes |
-| Front-End | React 19.2.0 |
-| Back-End (BE) | Spring Boot 3.5.5 + Java 21 + WebFlux + Spring AI |
-| Vector DB | InMemoryVectorStore (Spring AI) → Weaviate (Docker Image 사용) |
-| LLM | GPT-5 mini |
-| MCP Client & Server | Spring Boot 3.5.5 + Java 21 + WebFlux |
+| 구분                 | 기술 스택 / 버전 |
+|--------------------|----------------|
+| 운영 환경              | Kubernetes |
+| Front-End          | React 19.2.0 |
+| Back-End (BE) & MCP Client    | Spring Boot 3.5.5 + Java 21 + WebFlux + Spring AI |
+| Vector DB          | InMemoryVectorStore (Spring AI) → Weaviate (Docker Image 사용) |
+| LLM                | GPT-5 mini |
+| MCP Server | Spring Boot 3.5.5 + Java 21 + WebFlux |
 
 
 
