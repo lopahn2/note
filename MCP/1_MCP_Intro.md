@@ -33,7 +33,7 @@ MCP는 Client-Server 구조를 따릅니다. `MCP Server`는 위에서 언급한
 ![](./assets/images/mcp_client_server.png)
 
 > Claude Desktop을 사용하여 회원 정보 서버와 구매 기록 서버에 각각 요청을 보내는 경우, Claude Desktop은 MCP Host로서  
-> 여러 MCP Server(회원정보 서버, 구매기록 서버 등)와 통신한다고 표현할 수 있습니다.
+> 여러 MCP Server(회원정보 서버, 구매기록 서버 등)와 맵핑되어있는 MCP Client들을 통해 통신한다고 표현할 수 있습니다.
 
 ## MCP Layer
 
