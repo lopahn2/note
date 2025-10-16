@@ -78,3 +78,5 @@ Function Calling은 OpenAISpec에 호출 가능한 함수의 사양을 정의해
    - 일반적인 호출 상황
    - Sampling 호출 상황
    - Elicitation 호출 상황
+
+MCP Server의 도메인의 경우, 항공권 예매를 시작으로 항공권 + 호텔 예약 으로 확장해 나갈 예정입니다.
