@@ -54,14 +54,14 @@ Function Calling은 OpenAISpec에 호출 가능한 함수의 사양을 정의해
 
 ### Spec
 
-| 구분                 | 기술 스택 / 버전 |
-|--------------------|----------------|
-| 운영 환경              | Kubernetes |
-| Front-End          | React 19.2.0 |
-| Back-End (BE) & MCP Client    | Spring Boot 3.5.5 + Java 21 + WebFlux + Spring AI |
+| 구분                 | 기술 스택 / 버전                                                   |
+|--------------------|--------------------------------------------------------------|
+| 운영 환경              | Kubernetes 1.33.0v                                           |
+| Front-End          | React 19.2.0                                                 |
+| Back-End (BE) & MCP Client    | Spring Boot 3.5.5 + Java 21 + WebFlux + Spring AI            |
 | Vector DB          | InMemoryVectorStore (Spring AI) → Weaviate (Docker Image 사용) |
-| LLM                | GPT-5 mini |
-| MCP Server | Spring Boot 3.5.5 + Java 21 + WebFlux |
+| LLM                | GPT-5 mini                                                   |
+| MCP Server | Spring Boot 3.5.5 + Java 21 + WebFlux                        |
 
 
 
